@@ -7,11 +7,11 @@ This project appears to be a web-based system for managing information about a p
 
 File Structure
 
-index : The homepage of the website. Likely the main entry point.
-About : A page providing information about the Malcolm Lismoree.
-Enquiry : A page with a form to submit inquiries.
-Gallery : A page that likely displays images or other media related to the place.
-Pricing : A page detailing pricing information.
+- index : The homepage of the website. Likely the main entry point.
+- About : A page providing information about the Malcolm Lismoree.
+- Enquiry : A page with a form to submit inquiries.
+- Gallery : A page that likely displays images or other media related to the place.
+- Pricing : A page detailing pricing information.
 
 Setup Instructions
 1.Ensure you have a web server running that supports PHP, such as Apache or Nginx.
