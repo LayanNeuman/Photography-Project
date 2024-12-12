@@ -1,0 +1,489 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.nav-menu {
+    background-color: #ffffff;
+    color: #2c3e50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    -webkit-box-shadow: 2px 10px 12px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 10px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 10px 12px 0px rgba(0,0,0,0.75);
+}
+.nav-menu .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-list ul li {
+    display: inline-block;
+    margin-right: 10px;
+    border: 1PX #3498db solid;
+    border-radius: 5PX;
+    padding: 10PX 20PX;
+}
+.nav-list ul li a {
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+.nav-list ul li:last-child {
+    margin-right: 0;
+    border: 1PX #2980b9 solid;
+    background-color: #2980b9;
+    border-radius: 5PX;
+    padding: 10PX 20PX;
+}
+
+.header {
+    background-color: #f2f2f2;
+    height: 500px; /* Adjust height as needed */
+    text-align: center;
+    padding-top: 50px;
+    background-image: url(./pub_img/wedding.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header .head-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	background-color: #0ae;
+	
+	background-image: -webkit-gradient(linear, 0 0, 0 100%,
+	                   color-stop(.5, rgba(255, 255, 255, .2)),
+					   color-stop(.5, transparent), to(transparent));
+}
+
+.bg h1{
+    margin-top: 150px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 1100;
+    font-style: italic;
+    font-size: 100px;
+    padding: 50px;
+}
+
+  .service{
+    display: flex;
+    height: 300px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+  }
+  .box{
+    display: flex;
+    margin-top: 20px;
+    height: 300px;
+    width: 30%;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    border-radius: 5px;
+    flex-direction: column;
+ 
+  }
+.box h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box h2:hover{
+    font-size: 50px;
+    cursor: pointer;
+}
+.box p{
+    display: flex;
+    text-align: center;
+    margin: 50px;
+}
+
+.wedding{
+    background-color: black;
+    background-image: url(./pub_img/wedding.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.portraits{
+    background-color: black;
+    background-image: url(./pub_img/portraits.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.special-events{
+    background-color: black;
+    background-image: url(./pub_img/bd.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.sub-txt{
+    text-align: center;
+    margin: 20px;
+    font-size: 45px;
+    color: #34495e;
+}
+.latest{
+    margin-top: 100px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: #cfcfcf;
+}
+.inner{
+display: flex;
+}
+.inner h2{
+    padding-top: 80px;
+    text-align: center;
+}
+.inner img{
+    height: 300px;
+}
+.inner img:hover{
+    margin-right: 50px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    font-size: 40px;
+    color:#2c3e50 ;
+}
+ 
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+  }
+.gallery{
+    width: 100%;
+}
+.contant{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.ghead{
+display: flex;
+height: 50px;
+width: 100%;
+justify-content: center;
+background-color: #f5f6f7;
+color: #34495e;
+}
+.option-cont{
+    display: flex;
+    justify-content: center;
+}
+.option{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    padding-top: 20px;
+}
+.option button{
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    outline: none;
+}
+option button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.option button:hover::before {
+    width: 0;
+    height: 0;
+}
+
+.option button:hover {
+    color: #3498db;
+    background-color: #fff;
+}
+
+.option button span {
+    position: relative;
+    z-index: 1;
+}
+/*-----------------*/
+
+.Galley{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.inner-gallery {
+    width: 80%; 
+}
+.showcase {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.showcase .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.showcase img {
+    width: calc(33.33% - 10px); 
+    height: auto;
+    margin-bottom: 10px; 
+    transition: transform 0.3s ease; 
+}
+
+.showcase img:hover {
+    transform: scale(1.1); 
+}
+.liner{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(15, 15, 15, 0.1);
+    margin-top: 20px;
+}
+
+.showcase img,
+.dynamic-image {
+    width: calc(33.33% - 10px);
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+.row img{
+    height: 200px;
+}
+
+/*Price*/
+
+.price {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.price-inner {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.row {
+    width: 300px; 
+}
+
+.card {
+    width: 300px; 
+    height: 400px; 
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.package {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.description {
+    margin-bottom: 15px;
+}
+
+.amount {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0; 
+}
+
+/*Enquiry*/
+.enquiry-main{
+    display: flex;
+    justify-content: center;
+
+}
+.Enquiry {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.en-head {
+    text-align: center;
+    width: 80%;
+}
+
+.en-head h1 {
+    margin-bottom: 20px;
+}
+
+.en-head  p{
+    margin: 15px;
+}
+
+.en-head img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.en-form {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.en-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/*about */
+.about {
+    background-color: #ffffff;
+    padding: 50px; 
+    text-align: center; 
+  }
+  
+  .about-cont {
+    max-width: 800px;
+    margin: 0 auto; 
+  }
+  
+  .about-cont h1 {
+    font-size: 32px;
+    color: #333; 
+  }
+  
+  .about-cont h2 {
+    margin-top: 30px;
+    font-size: 24px; 
+    color: #666; 
+  }
+  
+  .about-cont p {
+    margin-top: 20px;
+    font-size: 16px; 
+    line-height: 1.6; 
+    color: #666; 
+  }
